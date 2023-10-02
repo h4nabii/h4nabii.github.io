@@ -1,0 +1,23 @@
+.error {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8bb8ff;
+    color: darkblue;
+}
+
+.error-title {
+    font-size: min(max(18px, 5vmin), 3rem);
+    margin: 0;
+}
+
+.error-message {
+    font-size: min(max(18px, 4vmin), 2rem);
+}
+
+.error-detail {
+    font-size: min(max(12px, 3vmin), 1.2rem);
+    margin: 0;
+}
