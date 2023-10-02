@@ -1,16 +1,26 @@
 .App {
     text-align: center;
+    min-height: 100vh;
 }
 
 .App-header {
-    background-color: #8bb8ff;
     display: flex;
     align-items: center;
     font-size: 20px;
     color: white;
 }
 
+.App-content {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
 .App-header .App-title {
     font-family: "Yu Mincho", "宋体", serif;
     margin: 10px 30px;
+}
+
+.App-footer {
+    text-align: center;
 }

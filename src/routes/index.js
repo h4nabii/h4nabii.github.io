@@ -1,17 +1,25 @@
 import React from "react";
-import App from "../App";
 import Test from "../test/Test";
+import Logs from "../views/logs/Logs";
 import Error from "../views/error/Error";
 
 const routes = [
   {
     path: "/",
-    element: <App></App>,
+    label: "文章",
+    element: <Logs></Logs>,
     errorElement: <Error/>,
   },
   {
-    path: "/test",
+    path: "/about",
+    label: "关于",
     element: <Test></Test>,
+  },
+  {
+    path: "/test",
+    label: "测试",
+    element: <Test></Test>,
+    hideInMenu: true,
   },
 ];
 
