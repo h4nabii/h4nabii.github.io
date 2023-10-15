@@ -16,6 +16,7 @@ export default function Logs() {
       label: "关于",
     },
   ].map(({label}) => ({label, key: label}));
+
   return (
     <>
       <Breadcrumb style={{margin: "16px 0"}}>
@@ -46,7 +47,7 @@ export default function Logs() {
               height: "100%",
             }}
           >
-            Content
+            此博客尚未搭建完成，可以先看看另一个相对更完整的进行中的项目：<a href="https://blog.hyhyzz.top/houseant-front/">House Ant</a>
           </div>
         </Content>
       </Layout>;
